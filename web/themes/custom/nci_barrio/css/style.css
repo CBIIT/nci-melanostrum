@@ -125,7 +125,9 @@ table.table-eventsreg > thead > tr  {
 header {
     margin-bottom: 0px;
 }
-
+a, .link {
+    color: #2a71a5;
+}
 .well {
   min-height: 20px;
   padding: 19px;
