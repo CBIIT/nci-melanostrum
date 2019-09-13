@@ -1,0 +1,20 @@
+uuid: e6ec7dda-5860-4ee3-b34f-867161f88e0f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_breadcrumbs
+theme: bootstrap_barrio_subtheme
+region: breadcrumb
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: '[current-page:title]'
+  provider: system
+  label_display: visible
+visibility: {  }

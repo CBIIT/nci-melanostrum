@@ -1,0 +1,11 @@
+uuid: 3be49d0d-b05a-4eed-a50f-109b31319534
+langcode: en
+status: true
+dependencies: {  }
+id: removetitleh2
+label: 'remove title h2'
+code: "#block-nci-barrio-content > h2:first-of-type {\r\n  display:none;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

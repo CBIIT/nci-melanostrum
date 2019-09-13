@@ -1,0 +1,31 @@
+uuid: 202dc4ad-f600-4a55-adb5-f9b4b6de553a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:be6e947b-7674-43cc-8f61-039fc87deb4b'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_melanostrumbanner
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:be6e947b-7674-43cc-8f61-039fc87deb4b'
+settings:
+  id: 'block_content:be6e947b-7674-43cc-8f61-039fc87deb4b'
+  label: 'Melanostrum Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
