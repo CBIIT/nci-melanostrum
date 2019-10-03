@@ -8,4 +8,5 @@ content_types:
   page: all
 content_type_modes:
   article: {  }
-  page: {  }
+  page:
+    - full
